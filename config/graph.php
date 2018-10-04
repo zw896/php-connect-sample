@@ -26,6 +26,7 @@ namespace Microsoft\Graph\Connect;
  */
 class Constants
 {
+
     const CLIENT_ID          = '6afea9dc-c3ee-4bce-9341-d95892b5156a';
     const CLIENT_SECRET      = 'dkurJCC30;{kthPHTC114])';
     const REDIRECT_URI       = 'http://localhost:8000/login';

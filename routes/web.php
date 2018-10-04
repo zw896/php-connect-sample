@@ -14,6 +14,10 @@
 Route::get('/', function () {
     return view('welcome');
 });
+<<<<<<< HEAD
 Route::get('/oauth.php', 'LoginController@oauth');
+=======
+Route::get('/login', 'LoginController@oauth');
+>>>>>>> microsoft login
 Route::get('/email', 'EmailController@showUserInfo');
 Route::post('/email', 'EmailController@sendEmail');

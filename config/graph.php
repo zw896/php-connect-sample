@@ -26,9 +26,15 @@ namespace Microsoft\Graph\Connect;
  */
 class Constants
 {
+<<<<<<< HEAD
     const CLIENT_ID          = 'ENTER_YOUR_CLIENT_ID';
     const CLIENT_SECRET      = 'ENTER_YOUR_SECRET';
     const REDIRECT_URI       = 'http://localhost:8000/oauth.php';
+=======
+    const CLIENT_ID          = '6afea9dc-c3ee-4bce-9341-d95892b5156a';
+    const CLIENT_SECRET      = 'dkurJCC30;{kthPHTC114])';
+    const REDIRECT_URI       = 'http://localhost:8000/login';
+>>>>>>> microsoft login
     const AUTHORITY_URL      = 'https://login.microsoftonline.com/common';
     const AUTHORIZE_ENDPOINT = '/oauth2/v2.0/authorize';
     const TOKEN_ENDPOINT     = '/oauth2/v2.0/token';

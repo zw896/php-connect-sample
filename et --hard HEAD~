@@ -1,0 +1,150 @@
+[33mcommit a0d1ad8aa18db3e40b3b83f56b52ef4b48d40a50[m[33m ([m[1;36mHEAD[m[33m)[m
+Author: wzz <zhezhang.wang@apek.com.au>
+Date:   Thu Oct 4 16:20:43 2018 +1000
+
+    version1
+
+[33mcommit b9cc965db3e40d5aaa58a3b300b33c33850b2ea0[m[33m ([m[1;31morigin/master[m[33m)[m
+Author: Caitlin Bales (MSFT) <caitbal@microsoft.com>
+Date:   Thu Nov 16 11:14:45 2017 -0800
+
+    Fix link to issues page
+    
+    Resolves #8
+
+[33mcommit 35c5863583a5978bc69a8accab7b425a71acf30b[m
+Author: Caitlin Bales (MSFT) <caitbal@microsoft.com>
+Date:   Thu Jun 8 18:40:44 2017 -0700
+
+    Fix sendmail bug
+
+[33mcommit b4e2f652ed330159728be0fb8b7aac48cc9bf074[m
+Author: Caitlin Bales (MSFT) <caitbal@microsoft.com>
+Date:   Thu Jun 8 18:13:57 2017 -0700
+
+    Update SDK version to 1.0
+
+[33mcommit f2e330da50f982d30ae5162309822c829f8260e3[m
+Merge: d1c3d98 cba92e9
+Author: Caitlin Bales (MSFT) <c.bales@outlook.com>
+Date:   Wed Mar 8 09:25:03 2017 -0800
+
+    Merge remote-tracking branch 'origin/master'
+    
+    # Conflicts:
+    #       composer.json
+
+[33mcommit d1c3d9822df20f9f74626397529cfbdc93ff025f[m
+Author: Caitlin Bales (MSFT) <c.bales@outlook.com>
+Date:   Wed Mar 8 09:21:39 2017 -0800
+
+    Update OAuth2 lib version
+    
+    This doesn't solve the downstream reliance on mcrypt pointed out in
+    issue #3 , but it does introduce a different random package which pushes
+    this to a lowest priority after sodium
+
+[33mcommit cba92e9f939b0e5e908531195a7ae67b9542411d[m
+Author: Caitlin Bales (MSFT) <caitbal@microsoft.com>
+Date:   Wed Mar 1 16:26:09 2017 -0800
+
+    Update composer.json
+
+[33mcommit 805ff61fcf04ee2637c6ca9fb0de3bceeb8d3b76[m
+Author: Caitlin Bales (MSFT) <c.bales@outlook.com>
+Date:   Thu Jan 26 14:47:13 2017 -0800
+
+    Change the login route/redirect
+
+[33mcommit d92fd005a3ff40a7eb49003cdff165e388d2dd68[m
+Merge: 12fc0c5 832042d
+Author: Caitlin Bales (MSFT) <caitbal@microsoft.com>
+Date:   Tue Jan 24 10:31:02 2017 -0800
+
+    Merge pull request #2 from microsoftgraph/edit-placeholder-text
+    
+    Update graph.php
+
+[33mcommit 832042d9f3489472b4e312eaa4d92bfcf86d1fd9[m
+Author: Caitlin Bales (MSFT) <c.bales@outlook.com>
+Date:   Tue Jan 24 10:30:41 2017 -0800
+
+    Update README constants
+
+[33mcommit 12fc0c5b2d86314c33fc2ba24b58aea64a66dcdc[m
+Author: Caitlin Bales (MSFT) <c.bales@outlook.com>
+Date:   Tue Jan 24 10:27:46 2017 -0800
+
+    Replace full URLs in scopes with shorthand
+
+[33mcommit 111a783a4606e0668c382ca1eb440f26f484a2eb[m
+Author: DianeD <ddiaz@microsoft.com>
+Date:   Tue Jan 24 10:07:08 2017 -0800
+
+    Update graph.php
+    
+    sync placeholder text
+
+[33mcommit 662707e1675b15d4d7078c2defbd0170ffe9cc5e[m
+Author: Caitlin Bales (MSFT) <caitbal@microsoft.com>
+Date:   Tue Jan 3 14:41:26 2017 -0800
+
+    Add "What's Next" section to readme
+
+[33mcommit 40415404400b4b5c8c16baa4de82c40b896f3a11[m
+Author: Caitlin Bales (MSFT) <c.bales@outlook.com>
+Date:   Tue Jan 3 13:52:37 2017 -0800
+
+    Remove dead contribution link
+
+[33mcommit f699d6b61cbdce0e7275d9f5106c34e029d23962[m
+Author: Caitlin Bales (MSFT) <c.bales@outlook.com>
+Date:   Tue Jan 3 13:51:46 2017 -0800
+
+    Update readme image
+
+[33mcommit bd5ae81eada871cdaea2d3d6dc83531db6386e8e[m
+Author: Caitlin Bales (MSFT) <c.bales@outlook.com>
+Date:   Tue Jan 3 13:49:08 2017 -0800
+
+    Add space to scopes
+
+[33mcommit 99ae6d6937a086466dcc4b63d25f43ec7e63503b[m
+Author: Caitlin Bales (MSFT) <c.bales@outlook.com>
+Date:   Wed Dec 21 10:34:31 2016 -0800
+
+    Add better email subject
+
+[33mcommit 5eee06b7449fc77991c03c58f5f8c0126f2e9c6d[m
+Merge: abcb3ac b923ceb
+Author: Caitlin Bales (MSFT) <c.bales@outlook.com>
+Date:   Wed Dec 21 10:22:11 2016 -0800
+
+    Merge remote-tracking branch 'origin/master'
+    
+    # Conflicts:
+    #       config/graph.php
+
+[33mcommit abcb3ac074bff7f16a8ab88e068e2e2ccf5c62dd[m
+Author: Caitlin Bales (MSFT) <c.bales@outlook.com>
+Date:   Wed Dec 21 10:20:52 2016 -0800
+
+    Update links in constants file
+
+[33mcommit b923ceb19b52ee33330df0b44c5ce5244551f2bb[m
+Author: Caitlin Bales (MSFT) <caitbal@microsoft.com>
+Date:   Tue Dec 20 16:18:10 2016 -0800
+
+    Re-add profile scope
+
+[33mcommit c86d9c7f75e72c6554a08b0e4951a15838c1c993[m
+Author: Caitlin Bales (MSFT) <c.bales@outlook.com>
+Date:   Fri Dec 16 09:32:24 2016 -0800
+
+    Update scopes constant
+
+[33mcommit 45bf7b7f888b465c6780ed4b67c5a1111e0bef66[m
+Author: Caitlin Bales (MSFT) <c.bales@outlook.com>
+Date:   Thu Dec 15 13:07:49 2016 -0800
+
+    Initial commit
